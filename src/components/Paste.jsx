@@ -33,7 +33,7 @@ const Paste = () => {
           filteredData.map(
             (paste) => {
               return(
-                <div className='border rounded-2xl border-[#646cffaa] flex flex-col gap-1 pt-2 pb-2' key={paste?._id}>
+                <div className='border rounded-2xl border-[#1a1a1a] flex flex-col gap-1 pt-2 pb-2  transform transition duration-500 hover:scale-[1.08]' key={paste?._id}>
                   <div className='font-bold text-2xl'>
                     {paste.title}
                   </div>
